@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
 import Employees from '../Pages/Employees'
+import JobAdEmployeeCheck from '../Pages/JobAdEmployeeCheck'
 import JobAdverts from '../Pages/JobAdverts'
 import Sidebar from './Sidebar'
 
@@ -20,8 +21,8 @@ export default function Dashboard() {
 
                     <Grid.Column width ="12">
 
-                        <JobAdverts/>
-
+                        {/* <JobAdverts/> */}
+                        <JobAdEmployeeCheck/>
 
                     </Grid.Column>
 
